@@ -1,0 +1,79 @@
+ .containerg{
+     padding: 10px;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     height: 75vh;
+ }
+
+
+ .boxg{
+     justify-content: right;
+     transition: 0.6s;
+     background-repeat: no-repeat;
+     padding: 30px;
+     
+ }
+ 
+ .boxg:hover{
+      transform: scale(1.1);
+ }
+
+ .gridtextg{
+    justify-self: left;
+    color: cornsilk;
+    font-size: 400%;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    font-weight: normal;
+    }
+
+
+
+
+.movies{
+    background-image: url(thesoloist.jpeg);
+    transition: 1s;
+}
+
+.movies:hover{
+    background-image: url(slpb.jpeg);
+}
+
+.series{
+    background-image: url(hope1.jpeg);
+    transition: 1s;
+}
+.series:hover{
+    background-image: url(tommy.jpg);
+}
+
+.animations{
+    background-image: url(trolls.jpg);
+    transition: 1s;
+}
+
+.animations:hover{
+    background-image: url(frozen2.jpeg);
+}
+
+.games{
+    background-image: url(acsy.jpeg);
+    transition: 1s;
+}
+
+.games:hover{
+    background-image: url(geralt.jpeg);
+}
+
+.marveldc{
+    background-image: url(ww2.jpeg);
+    transition: 1s;
+}
+
+.marveldc:hover{
+    background-image: url(spdm3.jpeg);
+}
+
+.black{
+    background: black;
+}

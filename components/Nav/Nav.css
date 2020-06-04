@@ -1,0 +1,77 @@
+.head{
+     font-size: 200%;
+     font-weight: bold;
+     color: black;
+     font-family: 'CUPPYCAKE';
+     margin: auto ;
+}
+
+{/* 3d stuff*/}
+
+.text {
+    position: ;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-weight: 400;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+.main-nav{
+
+	display: flex;
+	list-style: none;
+    text-decoration: none;
+    margin: 0;
+    justify-content: center;
+    
+}
+
+@media only screen and (max-width: 600px){
+	.main-nav{
+		font-size: 0.7em;
+		padding: 0;
+	}
+}
+
+
+ul{
+    justify-self: start;;
+}
+li{
+    padding: 20px;
+    font-size: smaller;
+    transition: 0.5s;
+}
+a{   
+    text-decoration: none;  
+    font-weight: bold;
+    color: black;    
+}
+
+li:hover{
+    background-color: white;
+    color:rgba(255, 255, 255, 0.596);
+    
+}
+
+
+@font-face{
+    font-family: 'CUPPYCAKE';
+    font-style: normal;
+    src: local('cuppycake.otf');
+ }
