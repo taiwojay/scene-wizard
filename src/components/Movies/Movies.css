@@ -1,0 +1,52 @@
+.table{
+    height: 75vh;
+    background-color: lightgrey;
+}
+
+
+
+@media only screen and (max-width: 600px){
+}
+
+.grid-wrapper{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill,minmax(300px, 1fr) ) ;
+
+}
+
+.gridtext{
+    color: blanchedalmond;
+}
+
+.box > img{
+     
+	size: 100%;
+
+}
+
+.box{
+	padding: 10px;
+    margin: 10px;
+    background-size: cover;
+    height: 100%;
+    transition: 0.5s;
+    
+}
+
+.box:hover{
+    
+    transform: scale(1.05);
+}
+
+.seventhson{
+    background-image: url(seventhson.jpg);
+}
+
+.onceinholly{
+    background-image: url(onceinholly.jpg);
+}
+
+.mazerunner{
+    background-image: url(mazerunner.jpg);
+}
